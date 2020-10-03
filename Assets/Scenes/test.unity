@@ -178,6 +178,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e666e6e523445534eb7106a7f78135f1, type: 3}
+--- !u!54 &254675519 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 54364429465550346, guid: c3c0d86c0e789a244b1295717c5bc208,
+    type: 3}
+  m_PrefabInstance: {fileID: 582334136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &469879385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -514,10 +520,12 @@ MonoBehaviour:
   target: {fileID: 1247030145}
   distance: 2
   height: 2
-  damping: 10
-  smoothRotation: 1
-  followBehind: 1
-  rotationDamping: 10
+  heightDamping: 2
+  lookAtHeight: 0
+  parentRigidbody: {fileID: 254675519}
+  rotationSnapTime: 0.3
+  distanceSnapTime: 0
+  distanceMultiplier: 0
 --- !u!20 &721671766
 Camera:
   m_ObjectHideFlags: 0

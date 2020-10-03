@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E7DD88A2-5F48-7EEC-60D0-C16396001C21}</ProjectGuid>
+    <ProjectGuid>{D21D02E5-41B4-5231-34C5-E39C40F41D23}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -675,25 +675,25 @@
       <HintPath>C:/2019.4.11f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity/Autonomous Vehicle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/GitHub projects/Autonomous-Vehicle-Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
