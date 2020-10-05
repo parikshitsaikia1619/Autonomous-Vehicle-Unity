@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.30655277, g: 0.41134715, b: 0.5147059, a: 1}
   m_AmbientEquatorColor: {r: 0.30655277, g: 0.41134715, b: 0.5147059, a: 1}
   m_AmbientGroundColor: {r: 0.30655277, g: 0.41134715, b: 0.5147059, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 1.73
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: bf1bf92a3ce592e40b898be6c21cc2fa, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 2068907869}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
@@ -364,6 +364,46 @@ PrefabInstance:
     - target: {fileID: 4170099704911036, guid: c3c0d86c0e789a244b1295717c5bc208, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_CarDriveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_MaximumSteerAngle
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_FullTorqueOverAllWheels
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_ReverseTorque
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_Downforce
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_RevRangeBoundary
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_SlipLimit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114143047226002652, guid: c3c0d86c0e789a244b1295717c5bc208,
+        type: 3}
+      propertyPath: m_Topspeed
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3c0d86c0e789a244b1295717c5bc208, type: 3}
