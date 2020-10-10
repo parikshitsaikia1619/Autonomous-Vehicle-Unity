@@ -5,8 +5,8 @@ using System.IO;
 
 public class Drive : MonoBehaviour {
 
-	//public float speed = 200.0F;
-    //public float rotationSpeed = 100.0F;
+	public float speed = 200.0F;
+    public float rotationSpeed = 100.0F;
     public float visibleDistance = 50.0f;
     public Vector3 offset;
     List<string> collectedTrainingData = new List<string>();
@@ -35,8 +35,8 @@ public class Drive : MonoBehaviour {
     void Update() {
         float translationInput = Input.GetAxis("Vertical");
         float rotationInput = Input.GetAxis("Horizontal");
-        //float translation = Time.deltaTime * speed * translationInput;
-        //float rotation = Time.deltaTime * rotationSpeed * rotationInput;
+        float translation = Time.deltaTime * speed * translationInput;
+        float rotation = Time.deltaTime * rotationSpeed * rotationInput;
 
         //transform.Translate(0, 0, translation);
         //transform.Rotate(0, rotation, 0);

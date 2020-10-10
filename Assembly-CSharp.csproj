@@ -54,15 +54,17 @@
   <ItemGroup>
     <Compile Include="Assets\cam_switch.cs" />
     <Compile Include="Assets\ANN\ANN.cs" />
-    <Compile Include="Assets\scripts\fixrotation.cs" />
+    <Compile Include="Assets\Unlock_Assets\Shared\Scripts\CarComponents.cs" />
+    <Compile Include="Assets\ModCarComponent.cs" />
     <Compile Include="Assets\scripts\Drive.cs" />
     <Compile Include="Assets\SmoothFollow2.cs" />
     <Compile Include="Assets\scripts\ANNDrive.cs" />
     <Compile Include="Assets\teleport.cs" />
     <Compile Include="Assets\ANN\Neuron.cs" />
     <Compile Include="Assets\ANN\Layer.cs" />
-    <Compile Include="Assets\Unlock_Assets\Shared\Scripts\CarComponents.cs" />
-    <Compile Include="Assets\ModCarComponent.cs" />
+    <Compile Include="Assets\scripts\AI_drivatar.cs" />
+    <Compile Include="Assets\scripts\User_drive.cs" />
+    <Compile Include="Assets\scripts\car_follow.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Unlock_Assets\Shared\Prefabs\Projectors\Materials\Light Projector.shader" />
