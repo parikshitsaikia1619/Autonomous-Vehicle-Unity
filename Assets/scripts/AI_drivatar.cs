@@ -21,8 +21,6 @@ namespace UnityStandardAssets.Vehicles.Car
         double sse = 0;
         double lastSSE = 1;
 
-        public float translation;
-        public float rotation;
 
         public bool loadFromFile = true;
 
@@ -32,6 +30,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             // get the car controller
             m_Car = GetComponent<CarController>();
+
         }
         // Use this for initialization
         void Start()
