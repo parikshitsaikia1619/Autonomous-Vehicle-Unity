@@ -70,6 +70,7 @@
      <None Include="Assets\weights.txt" />
      <None Include="Assets\training_Data.txt" />
      <None Include="Assets\Unlock_Assets\Shared\Prefabs\Projectors\Materials\Light Projector.shader" />
+     <None Include="Assets\training_Data01.txt" />
      <None Include="Assets\Best Sports CARS - Pro 3D Models\README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2020.1.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

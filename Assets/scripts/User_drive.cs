@@ -26,7 +26,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         void Start()
         {
-            string path = Application.dataPath + "/training_Data.txt";
+            string path = Application.dataPath + "/training_Data01.txt";
             tdf = File.CreateText(path);
         }
 

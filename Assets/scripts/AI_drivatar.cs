@@ -15,7 +15,6 @@ namespace UnityStandardAssets.Vehicles.Car
         public Vector3 offset;
         public GameObject Lidar;
         private CarController m_Car; // the car controller we want to use
-        public cam_switch cam;
         bool trainingDone = false;
         float trainingProgress = 0;
         double sse = 0;
@@ -255,19 +254,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
             m_Car.Move(rotationInput + h, translationInput, translationInput, handbrake);
 
-
-            if(Input.GetKey(KeyCode.C))
-            {
-                cam.ShowFirstPersonView();
-            }
-
-            if (Input.GetKey(KeyCode.X))
-            {
-                cam.ShowOverheadView();
-            }
-            
-           
-            
+                
         }
     }
 }

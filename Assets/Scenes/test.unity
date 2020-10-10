@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!20 &36436813 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5053665368007207796, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
+  m_PrefabInstance: {fileID: 1362041691963433209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &232545267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209,8 +214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca9bfd190481654cbff1e938748ac9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstPersonCamera: {fileID: 1362041691963433210}
-  overheadCamera: {fileID: 1137404584}
+  cam: {fileID: 1137404584}
+  cam1: {fileID: 1362041691963433210}
+  cam2: {fileID: 701710348}
+  cam3: {fileID: 479761692}
+  cam4: {fileID: 36436813}
 --- !u!4 &242129864
 Transform:
   m_ObjectHideFlags: 0
@@ -282,6 +290,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8316910ee9d9cd4783bc9380cb0b0a1, type: 3}
+--- !u!20 &479761692 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5079025337247463243, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
+  m_PrefabInstance: {fileID: 1362041691963433209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &489991108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,6 +571,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f787f532f468284f80118149057d10e, type: 3}
+--- !u!20 &701710348 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 765214586222943188, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
+  m_PrefabInstance: {fileID: 1362041691963433209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &794071115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1582,6 +1600,14 @@ PrefabInstance:
       propertyPath: epochs
       value: 2000
       objectReference: {fileID: 0}
+    - target: {fileID: 2438185799590452566, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
+      propertyPath: m_Name
+      value: cam1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438185799590452566, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 5488225229805302483, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
       propertyPath: m_Name
       value: U_HC02_AI
@@ -1634,7 +1660,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3050203443671193507, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 14e76524c1bc2364fb839cbedcb87244, type: 3}
 --- !u!20 &1362041691963433210 stripped
 Camera:
