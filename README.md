@@ -3,4 +3,4 @@
  
 
  Demo Video:</br>
- [![Autonomous Vehicle](https://www.youtube.com/watch?v=vEjmMV_zVJM/0.jpg)](https://www.youtube.com/watch?v=vEjmMV_zVJM)
+ [![Autonomous Vehicle](https://www.youtube.com/watch?v=vEjmMV_zVJM.jpg)](https://www.youtube.com/watch?v=vEjmMV_zVJM)
