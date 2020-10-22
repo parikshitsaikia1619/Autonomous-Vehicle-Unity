@@ -3,4 +3,4 @@
  
 
  Demo Video:</br>
- [Autonomous Vehicle](https://github.com/parikshitsaikia1619/Autonomous-Vehicle-Unity/blob/main/Video/vid.gif)
+ ![](https://github.com/parikshitsaikia1619/Autonomous-Vehicle-Unity/blob/main/Video/vid.gif)
