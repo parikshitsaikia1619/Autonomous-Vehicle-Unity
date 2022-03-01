@@ -1,7 +1,7 @@
 # Autonomous Vehicle Unity
  Making a autonomous vehicle in Unity3D
  
-# For Project Explanation refer my article
+### For Project Explanation refer my article
 ![](https://www.linkedin.com/pulse/self-driving-car-simulation-techniques-unity-parikshit-saikia/)
  Demo Video:</br>
  ![](https://github.com/parikshitsaikia1619/Autonomous-Vehicle-Unity/blob/main/Video/vid.gif)
