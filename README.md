@@ -1,5 +1,5 @@
 # Autonomous Vehicle Unity
-An attempt to simulate behavioral cloning of autonomous vehicles.
+An attempt to simulate behavioral cloning of autonomous vehicles.<br>
 Forza's Drivatar system has been a big inspiration for this project.
  
 ### For a detailed explanation refer to my article
