@@ -1,7 +1,8 @@
 # Autonomous Vehicle Unity
- Making a autonomous vehicle in Unity3D
+An attempt to simulate behavioral cloning of autonomous vehicles.
+Forza's Drivatar system has been a big inspiration for this project.
  
-### For Project Explanation refer my article
+### For a detailed explanation refer to my article
 https://www.linkedin.com/pulse/self-driving-car-simulation-techniques-unity-parikshit-saikia/ </br></br>
  Demo Video:</br>
  ![](https://github.com/parikshitsaikia1619/Autonomous-Vehicle-Unity/blob/main/Video/vid.gif)
